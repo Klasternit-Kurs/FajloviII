@@ -1,0 +1,19 @@
+﻿<Window x:Class="FajloviII.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FajloviII"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
+	<StackPanel>
+		<DataGrid Name="dg" FontSize="42" IsReadOnly="True" ColumnWidth="*"/>
+		<StackPanel Orientation="Horizontal">
+			<TextBox Text="{Binding Ime}" Width="200" FontSize="42"/>
+			<TextBox Text="{Binding Prezime}" Width="200" FontSize="42"/>
+		</StackPanel>
+		<Button Content="Unos" FontSize="42" Click="Unos"/>
+		<Button Content="Snimi" FontSize="42" Click="Snimanje" />
+		<Button Content="Ucitaj" FontSize="42" Click="Ucitavanje"/>
+	</StackPanel>
+</Window>
