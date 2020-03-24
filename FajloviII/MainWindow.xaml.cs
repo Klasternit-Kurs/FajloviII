@@ -83,6 +83,14 @@ namespace FajloviII
 
 		}
 
+		private void Del(object bla, RoutedEventArgs blabla)
+		{
+			if (dg.SelectedItem != null)
+			{
+				listaO.Remove(dg.SelectedItem as Osoba);
+			}
+		}
+
 		private void Snimi()
 		{
 			BinaryFormatter Binarno = new BinaryFormatter();

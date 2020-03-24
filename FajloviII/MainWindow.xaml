@@ -13,6 +13,7 @@
 			<TextBox Text="{Binding Prezime}" Width="200" FontSize="42"/>
 		</StackPanel>
 		<Button Content="Unos" FontSize="42" Click="Unos"/>
+		<Button Content="Brisanje" FontSize="42" Click="Del"/>
 		<Button Content="Snimi" FontSize="42" Click="Snimanje"/>
 	</StackPanel>
 </Window>
