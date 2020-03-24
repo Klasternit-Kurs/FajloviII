@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FajloviII"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized" Closing="ZatvramSe">
 	<StackPanel>
 		<DataGrid Name="dg" FontSize="42" IsReadOnly="True" ColumnWidth="*"/>
 		<StackPanel Orientation="Horizontal">
@@ -13,7 +13,6 @@
 			<TextBox Text="{Binding Prezime}" Width="200" FontSize="42"/>
 		</StackPanel>
 		<Button Content="Unos" FontSize="42" Click="Unos"/>
-		<Button Content="Snimi" FontSize="42" Click="Snimanje" />
-		<Button Content="Ucitaj" FontSize="42" Click="Ucitavanje"/>
+		<Button Content="Snimi" FontSize="42" Click="Snimanje"/>
 	</StackPanel>
 </Window>

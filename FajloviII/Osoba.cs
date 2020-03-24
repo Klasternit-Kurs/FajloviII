@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace FajloviII
 {
+	[Serializable]
 	public class Osoba
 	{
 		public string Ime { get; set; }
